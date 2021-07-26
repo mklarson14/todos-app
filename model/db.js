@@ -1,29 +1,32 @@
 const db = {
-    todos: [ {
+    todos: [
+      {
         id: 1,
         text: "Buy milk",
-        completed: false,
-    },
-    {
+        completed: true
+      },
+      {
         id: 2,
         text: "Buy eggs",
-        completed: false,
-    },
-    {
+        completed: true
+      },
+      {
         id: 3,
         text: "Buy flour",
-        completed: false,
-    },
-    {
+        completed: false
+      },
+      {
         id: 4,
         text: "Buy sugar",
-        completed: false,
-    },
-    {
+        completed: false
+      },
+      {
         id: 5,
-        text: "Buy bread",
-        completed: false,
-    }
-       
+        text: "make pancakes",
+        completed: false
+      },
     ]
-}
+  }
+  
+  module.exports = db
+  
